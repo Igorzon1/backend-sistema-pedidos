@@ -20,7 +20,7 @@ Este projeto foi configurado e publicado em ambiente real utilizando:
 
 - Plataforma cloud: Render
 - Servidor: Linux
-- Processo assíncrono: uvicorn + asgi
+- Servidor ASGI: Uvicorn
 - Logs persistentes
 - Ambiente configurado via variáveis seguras (.env)
 - Debug desativado
@@ -69,6 +69,8 @@ Este sistema foi criado para simular **como uma API backend funciona em produç�
 ---
 
 ## 🏗️ Arquitetura e Estrutura
+
+A organização segue princípios de separação de responsabilidades e simula arquitetura de sistemas reais em produção.
 
 ```
 src/
