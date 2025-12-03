@@ -1,11 +1,33 @@
-# Robust FastAPI — API Resiliente, Testada e Monitorada com MongoDB
+# 🚀 Robust FastAPI — API em Produção, Testada e Monitorada com MongoDB
 
 API backend desenvolvida para simular um ambiente real de produção, aplicando boas práticas de arquitetura, testes automatizados, observabilidade e tratamento estruturado de erros.
 
 O projeto simula um sistema completo com cadastro de usuários, criação de pedidos, upload de arquivos e integração externa mockada, priorizando manutenibilidade, confiabilidade e organização de código.
 
 ---
+## 🌐 API em Produção (Deploy Online)
 
+A API está online e acessível publicamente:
+
+🔗 https://backend-sistema-pedidos.onrender.com/
+
+Documentação Swagger:
+🔗 https://backend-sistema-pedidos.onrender.com/docs
+
+## ☁️ Infraestrutura e Deploy
+
+Este projeto foi configurado e publicado em ambiente real utilizando:
+
+- Plataforma cloud: Render
+- Servidor: Linux
+- Processo assíncrono: uvicorn + asgi
+- Logs persistentes
+- Ambiente configurado via variáveis seguras (.env)
+- Debug desativado
+- Health Check automático
+- API pública e documentada
+
+---
 ## 🧩 O problema que este projeto resolve
 Projetos iniciantes normalmente ignoram:
 - monitoramento
